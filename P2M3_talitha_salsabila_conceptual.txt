@@ -1,0 +1,28 @@
+Jawab pertanyaan berikut dengan menggunakan kalimat Anda sendiri:
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+NoSQL merupakan sistem manajement data yang dirancang untuk data yang bersifat semistructured dan unstructured. Kelebihan dari NoSQL ialah dapat di scale-up secara horizontal sehingga memungkinkan menambahkan server tanpa harus me-shut-down server tersebut. Selain itu, NoSQL juga fleksibel dalam transaksi data
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+Hal utama yang dipertimbangkan ialah jenis data. Unstructured data dapat ditangani oleh NoSQL, sedangkan RDBMS menangani data yang terstruktur dengan skema yang tetap. Kemudian, NoSQL cocok untuk menangani big data karena dapat di scale-up secara horizontal, sedangkan RDBMS lebih tepat diterapkan pada data tidak terlalu besar. 
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+    
+    - MongoDB: memiliki fleksibilitas tinggi dalam menambah atau mengubah kolom tanpa mengganggu struktur yang sudah ada.
+    - Cassandra: memiliki arsitektur terdistribusi, sehingga meningkatkan keandalan dan ketersediaan. Skalabilitas tinggi dengan volume data besar, dan mendukung penyimpanan data yang tersebar di berbagai region.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+Apache Airflow merupakan platform yang digunakan untuk mengotomatisasi, menjadwalkan, dan memantau workflow data. Airflow sangat berguna dalam proses ETL (extract, transform, load). DAG (Directed Acyclic Graph) ialah alur kerja dari Airflow, dimana terdapat node (task) yang saling bergantungan. DAG bersifat acyclic, yang berarti proses tidak bersiklus.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+Great expectation merupakan platforn yang dibuat untuk validasi, dokumentasi, dan profiling data. GX membantu memastikan kualitas data dengan menguji data dengan expectations yang dibuat.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+Batch processing adalah metode pengolahan data dimana sekelompok data diolah secara bersamaan pada waktu tertetu. Batch processing digunakan untuk menangani data dengan volume besar secara efisien.
+Contoh penggunaannya: sistem perbankan (pembayaran, transfer, penutupan buku) dan transaksi e-commerce.
+Contoh tools: Apache Spark, Apache Airflow, AWS Batch, Microsoft Azure Batch.

@@ -1,0 +1,29 @@
+dataset = https://www.kaggle.com/datasets/dsfelix/us-stores-sales/code
+
+CREATE TABLE table_m3 (
+    "Area Code" INT,
+    "State" VARCHAR(100),
+    "Market" VARCHAR(100),
+	"Market Size" VARCHAR(100),
+	"Profit" FLOAT,
+	"Margin" FLOAT,
+	"Sales" FLOAT,
+	"COGS" FLOAT,
+	"Total Expenses" FLOAT,
+	"Marketing" FLOAT,
+	"Inventory" FLOAT,
+	"Budget Profit" FLOAT,
+	"Budget COGS" FLOAT,
+	"Budget Margin" FLOAT,
+	"Budget Sales" FLOAT,
+	"ProductId" INT,
+	"Date" VARCHAR(100),
+	"Product Type" VARCHAR(100),
+	"Product" VARCHAR(100),
+	"Type" VARCHAR(100)
+);
+
+COPY table_m3
+FROM 'D:/hacktiv8/fase2/project-m3/P2M3_talitha_salsabila_raw.csv'
+DELIMITER ','
+CSV HEADER;
